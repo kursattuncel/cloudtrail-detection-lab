@@ -19,6 +19,7 @@ Cloud monitoring is hard to demonstrate safely because real logs can include sen
 ## Quickstart
 
 ```bash
+python -m pip install -e .
 python -m unittest discover -s tests
 python -m cloudtrail_detection_lab examples/cloudtrail.json
 ```

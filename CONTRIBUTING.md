@@ -19,6 +19,7 @@ Thanks for helping improve this defensive cybersecurity project.
 ## Development
 
 ```bash
+python -m pip install -e .
 python -m unittest discover -s tests
 python -m cloudtrail_detection_lab --help
 ```
